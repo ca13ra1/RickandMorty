@@ -15,6 +15,7 @@
 		64EA539E26E8739F0071CBBF /* RickandMortyDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EA539D26E8739F0071CBBF /* RickandMortyDatas.swift */; };
 		64EA53A026E873C60071CBBF /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EA539F26E873C60071CBBF /* String+Extension.swift */; };
 		64EA53A226E873E60071CBBF /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EA53A126E873E60071CBBF /* CharacterView.swift */; };
+		64EA53A426E879720071CBBF /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EA53A326E879720071CBBF /* CharacterList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		64EA539D26E8739F0071CBBF /* RickandMortyDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickandMortyDatas.swift; sourceTree = "<group>"; };
 		64EA539F26E873C60071CBBF /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		64EA53A126E873E60071CBBF /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		64EA53A326E879720071CBBF /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		64EA539826E873590071CBBF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				64EA53A326E879720071CBBF /* CharacterList.swift */,
 				64EA53A126E873E60071CBBF /* CharacterView.swift */,
 			);
 			path = Views;
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64EA53A226E873E60071CBBF /* CharacterView.swift in Sources */,
+				64EA53A426E879720071CBBF /* CharacterList.swift in Sources */,
 				64EA539C26E8737D0071CBBF /* RickandMorty.swift in Sources */,
 				64EA538B26E8731E0071CBBF /* ContentView.swift in Sources */,
 				64EA539E26E8739F0071CBBF /* RickandMortyDatas.swift in Sources */,
@@ -332,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cabralcole.RickandMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -362,7 +366,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cabralcole.RickandMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
